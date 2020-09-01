@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script type="text/javascript" src="./diceRoller.js"></script>
+    <link rel="stylesheet" href="./diceRoller.css">
+    <meta charset="UTF-8">
+    <link id ="fontawesome" rel="stylesheet" href="/font-awesome/css/font-awesome.min.css">
+    <title>DICE ROLLER</title>
+</head>
+
+<body>
+    <div id="nav"></div>
+<div id= "calc">
+    <div class="display">
+        <input id="textfield" name="textfield" placeholder="d(x)+y" class="textbox"/>
+    </div>
+
+<div class="container">
+    <div class="item item1" style="background-color: #DCDCDC" onclick="onButtonClick('d2')">d2</div>
+    <div class="item item2" style="background-color: #DCDCDC" onclick="onButtonClick('d4')">d4</div>
+    <div class="item item3" style="background-color: #DCDCDC" onclick="onButtonClick('d6')">d6</div>
+    <div class="item item4" style="background-color:#ED2939; color:#ffffff" onclick="onClearClick()">Clear</div>
+
+    <div class="item item5" style="background-color: #DCDCDC" onclick="onButtonClick('d8')">d8</div>
+    <div class="item item6" style="background-color: #DCDCDC" onclick="onButtonClick('d10')">d10</div>
+    <div class="item item7" style="background-color: #DCDCDC" onclick="onButtonClick('d12')">d12</div>
+    <div class="item item8" style="background-color:#ED2939; color:#ffffff" onclick="onBackspaceClick()">←</div>
+
+    <div class="item item9" style="background-color: #DCDCDC" onclick="onButtonClick('d20')">d20</div>
+    <div class="item item10" style="background-color: #DCDCDC" onclick="onButtonClick('d100')">d100</div>
+    <div class="item item11" style="background-color: #DCDCDC" onclick="onButtonClick('d')">d(x)</div>
+    <div class="item item12" style="background-color:#FFD300; color: #ffffff" onclick="onButtonClick('/')">/</div>
+
+    <div class="item item13" style="background-color: #FFFFFF;" onclick="onButtonClick('7')">7</div>
+    <div class="item item14" style="background-color: #FFFFFF;" onclick="onButtonClick('8')">8</div>
+    <div class="item item15" style="background-color: #FFFFFF;" onclick="onButtonClick('9')">9</div>
+    <div class="item item16" style="background-color:#FFD300; color: #ffffff" onclick="onButtonClick('*')">*</div>
+
+    <div class="item item17" style="background-color: #FFFFFF;" onclick="onButtonClick('4')">4</div>
+    <div class="item item18" style="background-color: #FFFFFF;" onclick="onButtonClick('5')">5</div>
+    <div class="item item19" style="background-color: #FFFFFF;" onclick="onButtonClick('6')">6</div>
+    <div class="item item20" style="background-color:#FFD300; color: #ffffff" onclick="onButtonClick('-')">-</div>
+
+    <div class="item item21" style="background-color: #FFFFFF;" onclick="onButtonClick('1')">1</div>
+    <div class="item item22" style="background-color: #FFFFFF;" onclick="onButtonClick('2')">2</div>
+    <div class="item item23" style="background-color: #FFFFFF;" onclick="onButtonClick('3')">3</div>
+    <div class="item item24" style="background-color:#FFD300; color: #ffffff" onclick="onButtonClick('+')">+</div>
+
+    <div class="item item25" style="background-color: #FFFFFF;" onclick="onButtonClick('0')">0</div>
+    <div class="item item26" style="background-color: #DCDCDC;" onclick="onButtonClick('(')">(</div>
+    <div class="item item27" style="background-color: #DCDCDC;" onclick="onButtonClick(')')">)</div>
+    <div class="item item28" style="background-color:#ED2939; color:#ffffff" onclick="onRollClick()">Roll</div>
+</div>
+</body>
+</html>
